@@ -12,6 +12,7 @@ The following forms the development stack
 4. Nodejs and NPM
 5. yeoman stack
 6. mongodb
+7. gradle
 
 ## How do I start using vagrant-webdev?
 
