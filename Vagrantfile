@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 # Updated from 12.04 LTS to 14.04 LTS
   config.vm.box = "ubuntu/trusty32"  
-  config.vm.box_url = "https://vagrantcloud.com/ubuntu/trusty32/version/1/provider/virtualbox.box"
+  #config.vm.box_url = "https://vagrantcloud.com/ubuntu/trusty32/version/1/provider/virtualbox.box"
 
 # GUEST network configuration  
   config.vm.network "private_network", ip: "192.168.10.110"
